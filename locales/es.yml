@@ -7,43 +7,47 @@ home:
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
-  support: 'Apoyar el desarrollo de IT-Tools'
+  support: 'Apoyar el desarrollo de CodeToolsHub'
   buyMeACoffee: 'Buy me a coffee'
+  blog: Blog
   follow:
     title: 'Te gustan las it-tools?'
     p1: 'Danos una estrella en'
-    githubRepository: 'Repositorio de IT-Tools en GitHub'
+    githubRepository: 'Repositorio de CodeToolsHub en GitHub'
     p2: 'o síguenos en'
-    twitterAccount: 'Cuenta de twitter de IT-Tools'
+    twitterAccount: 'Cuenta de twitter de CodeToolsHub'
     thankYou: 'Muchas gracias!'
   nav:
     github: 'Repositorio en github'
-    githubRepository: 'IT-Tools GitHub repository'
+    githubRepository: 'CodeToolsHub GitHub repository'
     twitter: 'Cuenta de Twitter'
     twitterAccount: 'Cuenta de twitter de IT Tools'
-    about: 'Sobre  IT-Tools'
+    about: 'Sobre  CodeToolsHub'
     aboutLabel: 'Sobre'
     darkMode: 'Modo obscuro'
     lightMode: 'Modo claro'
     mode: 'Alternar modo oscuro/claro'
 about:
   content: >
-    # Sobre IT-Tools
-
-    Este maravilloso sitio web, hecho con ❤ por [Corentin Thomasset](https://github.com/CorentinTh) , agrega herramientas útiles para desarrolladores y personas que trabajan en IT. Si lo encuentra útil, no dude en compartirlo con las personas que crea que también pueden encontrarlo útil y ¡no olvide marcarlo como favorito en su barra de accesos directos!
-
-    IT Tools es de código abierto (under the MIT license) y gratis, y siempre lo será, pero me cuesta dinero alojar y renovar el nombre de dominio. Si desea apoyar mi trabajo y animarme a agregar más herramientas, considere apoyarme a través de[sponsoring me](https://www.buymeacoffee.com/cthmsst).
-
-    ## Tecnologías
-
-    IT Tools está creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de código abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) archivo del repositorio.
-
-    ## ¿Encontraste un error? ¿Falta una herramienta?
+    # About Us
     
-    Si necesita una herramienta que actualmente no está presente aquí y cree que puede ser útil, puede enviar una solicitud de función en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
-
-    Y si encontró un error o algo no funciona como se esperaba, presente un reporte de error en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
-
+    Welcome to CodeToolsHub, your ultimate destination for digital tools across text processing, audio/video editing, software development, networking, and mathematical computations. Our mission is to empower professionals and enthusiasts alike by providing an extensive suite of efficient, user-friendly tools.
+    
+    # Our Tools
+    
+    At CodeToolsHub, we pride ourselves on a wide array of functionalities designed to simplify your digital life. Whether you're tweaking a document, editing a video, coding an application, optimizing your network, or solving complex mathematical problems, our tools are tailored to meet your needs.
+    
+    # Who We Serve
+    
+    Our services are ideal for IT professionals, developers, students, and academic researchers. We aim to boost productivity and foster innovation by removing technical barriers through intuitive solutions.
+    
+    # Our Team
+    
+    Our team consists of passionate experts in software development, multimedia, networking, and mathematics. Each member brings a wealth of knowledge and a unique perspective that drives the innovation at CodeToolsHub.
+    
+    # Connect With Us
+    
+    We are eager to hear from you! If you have any questions, feedback, or just want to say hello, please reach out to us at [email](mailto:3127321495{'@'}qq.com).
 404:
   notFound: '404 Not Found'
   sorry: 'Lo sentimos, esta página no parece existir'

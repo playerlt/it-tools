@@ -39,7 +39,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            IT - TOOLS
+            CodeToolsHub
           </div>
           <div class="divider" />
           <div class="subtitle">
@@ -61,7 +61,7 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            CodeToolsHub
 
             <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
               v{{ version }}
@@ -86,6 +86,7 @@ const tools = computed<ToolCategory[]>(() => [
             </c-link>
           </div>
         </div>
+
       </div>
     </template>
 
@@ -120,18 +121,18 @@ const tools = computed<ToolCategory[]>(() => [
           <NavbarButtons v-if="!styleStore.isSmallScreen" />
         </div>
 
-        <c-tooltip position="bottom" :tooltip="$t('home.support')">
+        <c-tooltip position="bottom" :tooltip="$t('home.blog')">
           <c-button
             round
-            href="https://www.buymeacoffee.com/cthmsst"
+            href="https://blog.codetoolshub.com"
             rel="noopener"
             target="_blank"
             class="support-button"
             :bordered="false"
             @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })"
           >
-            {{ $t('home.buyMeACoffee') }}
-            <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
+            {{ $t('home.blog') }}
+<!--            <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />-->
           </c-button>
         </c-tooltip>
       </div>
@@ -153,8 +154,8 @@ const tools = computed<ToolCategory[]>(() => [
 // }
 
 .support-button {
-  background: rgb(37, 99, 108);
-  background: linear-gradient(48deg, rgba(37, 99, 108, 1) 0%, rgba(59, 149, 111, 1) 60%, rgba(20, 160, 88, 1) 100%);
+  background: #161616;
+  background: linear-gradient(48deg, #161616 0%, #161616 60%, #161616 100%);
   color: #fff !important;
   transition: padding ease 0.2s !important;
 

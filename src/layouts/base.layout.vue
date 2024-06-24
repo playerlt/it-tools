@@ -124,7 +124,7 @@ const tools = computed<ToolCategory[]>(() => [
         <c-tooltip position="bottom" :tooltip="$t('home.blog')">
           <c-button
             round
-            href="https://blog.codetoolshub.com"
+            href="https://codetoolshub.com/blog"
             rel="noopener"
             target="_blank"
             class="support-button"

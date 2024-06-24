@@ -33,11 +33,6 @@ const router = createRouter({
     },
     ...toolsRoutes,
     ...toolsRedirectRoutes,
-    {
-      path: '/blog',
-      component: () => import('./components/ExternalRedirect.vue'),
-      meta: { url: 'https://www.codetoolshub.com/blog' }
-    },
 
     ...(config.app.env === 'development' ? demoRoutes : []),
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },

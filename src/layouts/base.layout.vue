@@ -85,6 +85,11 @@ const tools = computed<ToolCategory[]>(() => [
               Corentin Thomasset
             </c-link>
           </div>
+          <div>
+            <c-link target="_blank" rel="noopener" href="https://www.codetoolshub.com/blog">
+              Blog
+            </c-link>
+          </div>
         </div>
 
       </div>
@@ -121,19 +126,31 @@ const tools = computed<ToolCategory[]>(() => [
           <NavbarButtons v-if="!styleStore.isSmallScreen" />
         </div>
 
-        <c-tooltip position="bottom" :tooltip="$t('home.blog')">
-          <c-button
-            round
-            href="https://codetoolshub.com/blog"
-            target="_blank"
-            class="support-button"
-            :bordered="false"
-            @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })"
-          >
-            {{ $t('home.blog') }}
-<!--            <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />-->
-          </c-button>
-        </c-tooltip>
+<!--        <c-tooltip position="bottom" :tooltip="$t('home.blog')">-->
+<!--          <c-button-->
+<!--            round-->
+<!--            href="https://codetoolshub.com/blog"-->
+<!--            target="_blank"-->
+<!--            class="support-button"-->
+<!--            :bordered="false"-->
+<!--            @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })"-->
+<!--          >-->
+<!--            {{ $t('home.blog') }}-->
+<!--&lt;!&ndash;            <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />&ndash;&gt;-->
+<!--          </c-button>-->
+<!--        </c-tooltip>-->
+          <c-tooltip :tooltip="$t('home.nav.twitter')">
+            <c-button
+              round
+              href="https://twitter.com/JackS9653"
+              rel="noopener"
+              target="_blank"
+              class="support-button"
+              :aria-label="$t('home.nav.twitterAccount')"
+            >
+              <n-icon size="25" :component="BrandTwitter" />
+            </c-button>
+          </c-tooltip>
       </div>
       <slot />
     </template>

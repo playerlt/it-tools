@@ -36,7 +36,7 @@ const router = createRouter({
       name: 'blog',
       redirect: (to) => {
         // 这里可以指定你要跳转的 URL
-        return `https://codetoolshub.com/blog${to.fullPath}`;
+        return `https://codetoolshub.com/blog`;
       },
     },
     ...toolsRoutes,

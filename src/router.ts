@@ -31,14 +31,6 @@ const router = createRouter({
       name: 'about',
       component: () => import('./pages/About.vue'),
     },
-    {
-      path: '/blog/:pathMatch(.*)*',
-      name: 'blog',
-      redirect: (to) => {
-        // 这里可以指定你要跳转的 URL
-        return `https://codetoolshub.com/blog`;
-      },
-    },
     ...toolsRoutes,
     ...toolsRedirectRoutes,
 

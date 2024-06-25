@@ -2,7 +2,7 @@
 import { NIcon, useThemeVars } from 'naive-ui';
 
 import { RouterLink } from 'vue-router';
-import { Heart, Home2, Menu2 } from '@vicons/tabler';
+import {BrandTwitter, Heart, Home2, Menu2} from '@vicons/tabler';
 
 import { storeToRefs } from 'pinia';
 import HeroGradient from '../assets/hero-gradient.svg?component';
@@ -145,7 +145,6 @@ const tools = computed<ToolCategory[]>(() => [
               href="https://twitter.com/JackS9653"
               rel="noopener"
               target="_blank"
-              class="support-button"
               :aria-label="$t('home.nav.twitterAccount')"
             >
               <n-icon size="25" :component="BrandTwitter" />

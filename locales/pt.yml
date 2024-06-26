@@ -7,7 +7,7 @@ home:
   toggleMenu: 'Menu'
   home: 'Início'
   uiLib: 'Biblioteca de UI'
-  support: 'Apoie o desenvolvimento do IT Tools'
+  support: 'Apoie o desenvolvimento do CodeToolsHub'
   buyMeACoffee: 'Pague-me um café'
   blog: Blog
   follow:
@@ -21,7 +21,7 @@ home:
     github: 'Repositório no GitHub'
     githubRepository: 'repositório do CodeToolsHub no GitHub'
     twitter: 'Conta no Twitter'
-    twitterAccount: 'conta do IT Tools no Twitter'
+    twitterAccount: 'conta do CodeToolsHub no Twitter'
     about: 'Sobre o CodeToolsHub'
     aboutLabel: 'Sobre'
     darkMode: 'Modo Escuro'

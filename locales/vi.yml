@@ -7,7 +7,7 @@ home:
   toggleMenu: 'Chuyển đổi menu'
   home: Trang chủ
   uiLib: 'Thư viện UI'
-  support: 'Hỗ trợ phát triển IT Tools'
+  support: 'Hỗ trợ phát triển CodeToolsHub'
   buyMeACoffee: 'Ủng hộ tác giả'
   blog: Blog
   follow:
@@ -21,7 +21,7 @@ home:
     github: 'Kho GitHub'
     githubRepository: 'Kho GitHub CodeToolsHub'
     twitter: 'Tài khoản Twitter'
-    twitterAccount: 'Tài khoản Twitter IT Tools'
+    twitterAccount: 'Tài khoản Twitter CodeToolsHub'
     about: 'Về CodeToolsHub'
     aboutLabel: 'Giới thiệu'
     darkMode: 'Chế độ tối'

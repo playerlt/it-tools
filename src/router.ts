@@ -35,7 +35,7 @@ const router = createRouter({
     ...toolsRedirectRoutes,
 
     ...(config.app.env === 'development' ? demoRoutes : []),
-    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+    // { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   ],
 });
 

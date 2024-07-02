@@ -384,3 +384,7 @@ tools:
   text-to-binary:
     title: Chuyển đổi văn bản thành nhị phân ASCII
     description: Chuyển đổi văn bản thành biểu diễn nhị phân ASCII của nó và ngược lại.
+
+  lang-detect:
+    title: Phát Hiện Ngôn Ngữ
+    description: Phát hiện và nhận dạng ngôn ngữ của một văn bản nhất định

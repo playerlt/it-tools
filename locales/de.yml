@@ -437,3 +437,6 @@ tools:
   text-to-binary:
     title: Text zu ASCII-Binär
     description: Konvertiere Text in seine ASCII-Binärrepräsentation und umgekehrt.
+  lang-detect:
+    title: Spracherkennung
+    description: Erkennen und identifizieren Sie die Sprache eines gegebenen Textes
